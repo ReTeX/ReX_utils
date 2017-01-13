@@ -1,0 +1,16 @@
+[package]
+name = "ReX_utils"
+version = "0.1.0"
+authors = [
+    "Christopher Breeden <github@u.breeden.cc>",
+    "Sebastian Köln <sebk@rynx.org>"
+]
+
+[dependencies]
+clap = "2.19.3"
+
+[dependencies.rex]
+git = "https://github.com/ReTeX/ReX.git"
+
+[[bin]]
+name = "qc"
