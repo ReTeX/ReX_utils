@@ -8,9 +8,13 @@ authors = [
 
 [dependencies]
 clap = "2.19.3"
+json = "*"
 
 [dependencies.rex]
 git = "https://github.com/ReTeX/ReX.git"
 
 [[bin]]
 name = "qc"
+
+[[bin]]
+name = "profile"
